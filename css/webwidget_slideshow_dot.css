@@ -1,0 +1,47 @@
+#slider a{
+    text-decoration: none;
+}
+#slider a:hover{
+    text-decoration: underline;
+}
+#slider .slides_box{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+#slider .title_thumb_box{
+    width: 100%;
+    position: absolute;
+    bottom: 3px;
+}
+#slider .title_thumb_box .title_box{
+    padding: 5px;
+	display:none;
+}
+#slider .title_thumb_box .thumb_box{
+    text-align: right;
+    height: 25px;
+	padding:0 7px;
+}
+#slider .title_thumb_box .thumb_box span{
+    margin-right: 4px;
+}
+#slider .title_thumb_box .thumb_box span img{
+    cursor: pointer;
+}
+#slider img{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+#slider ul{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    list-style: none;
+}
+#slider li{
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
